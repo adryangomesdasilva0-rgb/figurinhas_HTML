@@ -460,13 +460,13 @@ h1{
 
 
 .item-compra {
-  position: relative; /* essencial: serve de "âncora" pra imagem */
+  position: relative; 
 }
 
 .preview-img {
-  display: none;          /* esconde a imagem por padrão */
-  position: absolute;     /* tira a imagem do fluxo normal */
-  left: 110%;              /* posiciona ao lado do texto */
+  display: none;          
+  position: absolute;     
+  left: 110%;              
   top: 0;
   width: 150px;
   border: 2px solid darkslategrey;
@@ -475,5 +475,5 @@ h1{
 }
 
 .item-compra:hover .preview-img {
-  display: block; /* mostra a imagem só quando passa o mouse */
+  display: block; 
 }
